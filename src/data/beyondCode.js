@@ -23,11 +23,12 @@ const beyondCode = [
   },
  {
   id: 2,
-  title: 'Digital Work Changes Behavior',
-  category: 'Digital Work',
+  title: 'Digital Work & Behavioral Dynamics',
+  category: 'Organizational Behavior',
   description:
-     'Digital work changes behavior through faster communication, greater visibility, data-driven decisions, distributed teams, and blurred work-life boundaries.',
+    'Explores how digital environments reshape workplace behavior through asynchronous communication, algorithmic visibility, data-driven decisions, and blurred work-life boundaries.',
   image: 'assets/img/beyondCode/image.png',
+  url: 'https://ob-digital-platform-l6qwjzh7v-chheangsamnangs-projects.vercel.app/',
 },
   {
     id: 3,

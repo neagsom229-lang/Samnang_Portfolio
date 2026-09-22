@@ -54,6 +54,7 @@ const projects = [
   image: '/assets/img/products/spms.png',
   tags: ['React', 'Node.js', 'Express', 'Tailwind CSS', 'Backend', 'Responsive'],
 },
+
 ];
 
 export default projects;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import projects from '../data/projects.js';
+import projects from '../data/projecttechnic.js';
 
 export default function Portfolio() {
   const [activeIndex, setActiveIndex] = useState(projects.length - 1);

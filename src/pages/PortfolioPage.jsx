@@ -52,6 +52,7 @@ function TechnicalProjectRow({ project }) {
         </div>
       )}
     </div>
+
   );
 }
 
@@ -69,6 +70,11 @@ function BeyondCodeCard({ item }) {
         <span className="beyond-code-category">{item.category}</span>
         <h4>{item.title}</h4>
         <p>{item.description}</p>
+        {item.url && (
+          <a href={item.url} target="_blank" rel="noopener noreferrer">
+            View Project <i className="bi bi-arrow-up-right"></i>
+          </a>
+        )}
       </div>
     </div>
   );
