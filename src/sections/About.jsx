@@ -211,58 +211,53 @@ export default function About() {
           </div>
 
           <div className="about-body-row">
-            <div className="about-body-text">
-              <p>
-                I am CS student with experience in frontend web development and project
-                implementation. Developed e-commerce and booking system applications with
-                an emphasis on responsive design and user experience. Continuously improving
-                programming and networking skills through academic studies and personal
-                projects. Passionate about learning new technologies, solving real-world
-                problems, and contributing to innovative development teams.
-              </p>
-              <p>
-                Designed and developed a full-stack web application with responsive UI/UX, secure authentication,
-                database management, RESTful APIs, payment integration, inventory management, and an admin
-                dashboard for efficient business operations.
-              </p>
-              <p>
-                Want to know more about my experience?{' '}
-                <a
-                  href="#resume"
-                  className="about-resume-link"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document.getElementById('resume')?.scrollIntoView({ behavior: 'smooth' });
-                  }}
-                >
-                  See my journey
-                </a>.
-              </p>
+           <div className="about-body-text">
+  <p>
+    I am a Computer Science student focused on full-stack web engineering and modern digital solutions. 
+    With hands-on experience building end-to-end e-commerce and management platforms, 
+    I emphasize responsive interfaces, maintainable architecture, and intuitive user experiences.
+  </p>
+  <p>
+    My work spans designing secure RESTful backends, database models, payment gateway integrations, 
+    and comprehensive admin dashboards built to streamline daily operations. Driven by curiosity and practical problem-solving, 
+    I continuously bridge classroom theory with production-ready software.
+  </p>
+  <p>
+    Curious about my milestones and projects?{' Let review my portfolio! '}
+    {/* <a
+      href="https://canva.link/o6yw4cfua1vw2j7"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="about-resume-link"
+    >
+      Explore my journey <i className="bi bi-box-arrow-up-right" style={{ fontSize: '0.85em' }}></i>
+    </a>. */}
+  </p>
 
-              <div className="currently-row">
-                <div className="currently-item">
-                  <span className="icon-box"><i className="bi bi-code-slash"></i></span>
-                  <div>
-                    <h5>Building</h5>
-                    <p>Web &amp; digital projects</p>
-                  </div>
-                </div>
-                <div className="currently-item">
-                  <span className="icon-box"><i className="bi bi-search"></i></span>
-                  <div>
-                    <h5>Exploring</h5>
-                    <p>Software testing &amp; QA</p>
-                  </div>
-                </div>
-                <div className="currently-item">
-                  <span className="icon-box"><i className="bi bi-rocket-takeoff"></i></span>
-                  <div>
-                    <h5>Learning</h5>
-                    <p>Full-stack development</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="currently-row">
+    <div className="currently-item">
+      <span className="icon-box"><i className="bi bi-code-slash"></i></span>
+      <div>
+        <h5>Building</h5>
+        <p>Full-Stack &amp; Scalable Apps</p>
+      </div>
+    </div>
+    <div className="currently-item">
+      <span className="icon-box"><i className="bi bi-search"></i></span>
+      <div>
+        <h5>Exploring</h5>
+        <p>Software Architecture &amp; QA</p>
+      </div>
+    </div>
+    <div className="currently-item">
+      <span className="icon-box"><i className="bi bi-rocket-takeoff"></i></span>
+      <div>
+        <h5>Learning</h5>
+        <p>Cloud &amp; DevOps Workflows</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div
   className="about-trait-card"

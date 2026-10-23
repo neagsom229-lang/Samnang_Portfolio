@@ -6,7 +6,6 @@ import Services from '../sections/Services.jsx';
 import About from '../sections/About.jsx';
 import Awards from '../sections/Awards.jsx';
 import Trainings from '../sections/Trainings.jsx';
-import Resume from '../sections/Resume.jsx';
 import Contact from '../sections/Contact.jsx';
 
 export default function HomePage() {
@@ -30,7 +29,6 @@ export default function HomePage() {
       <About />
       <Awards />
       <Trainings />
-      <Resume />
       <Contact />
     </>
   );

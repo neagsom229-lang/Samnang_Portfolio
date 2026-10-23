@@ -16,26 +16,29 @@ export default function Contact() {
         <div className="row gy-5 align-items-start">
           {/* Left column - mega heading, subtitle, CTAs */}
           <div className="col-lg-6">
-            <span className="eyebrow">Get In Touch</span>
-            <h2 className="contact-mega">LET&apos;S WORK<br />TOGETHER</h2>
-            <p className="contact-mega-sub">Looking for the next problem worth solving.</p>
-            <p className="contact-mega-body">
-              I&apos;m open to opportunities where I can contribute to software testing, web
-              development, IT operations, and digital workflows.
-            </p>
+  <span className="eyebrow">Get In Touch</span>
+  <h2 className="contact-mega">LET&apos;S WORK<br />TOGETHER</h2>
+  <p className="contact-mega-sub">Looking for the next problem worth solving.</p>
+  <p className="contact-mega-body">
+    I&apos;m open to opportunities where I can contribute to software testing, web
+    development, IT operations, and digital workflows.
+  </p>
 
-            <div className="contact-cta-row">
-              <button type="button" className="btn-outline-modern" onClick={openMessagePopup}>
-                Send Me a Message
-              </button>
-              {/* Points to the on-page Resume section by default — swap this
-                  href for a real PDF path (e.g. /assets/files/resume.pdf)
-                  once you add one to public/assets/files/. */}
-              <a href="#resume" className="btn-gradient" onClick={scrollToResume}>
-                Download Resume <i className="bi bi-arrow-down"></i>
-              </a>
-            </div>
-          </div>
+  <div className="contact-cta-row">
+    <button type="button" className="btn-outline-modern" onClick={openMessagePopup}>
+      Send Me a Message
+    </button>
+
+    {/* <a
+      href="https://canva.link/o6yw4cfua1vw2j7"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-gradient"
+    >
+      View Resume <i className="bi bi-box-arrow-up-right"></i>
+    </a> */}
+  </div>
+</div>
 
           {/* Right column - stacked contact cards */}
           <div className="col-lg-6">
