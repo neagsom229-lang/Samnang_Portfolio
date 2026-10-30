@@ -13,14 +13,14 @@
  */
 
 const beyondCode = [
-  {
-    id: 1,
-    title: 'Creative Design Collection',
-    category: 'Design',
-    description:
-      'A set of graphic design pieces — social posts, posters, and branding explorations — created for personal and academic projects.',
-    image: '',
-  },
+{
+  id: 1,
+  title: "LessonHub — Entrepreneurship Platform",
+  category: "Entrepreneurship & Education",
+  description: "An operator-grade entrepreneurship platform curating 13 structured frameworks with worked math, real-world case studies, failure modes, and action checklists for students and founders.",
+  image: 'assets/img/beyondCode/image2.png',
+  url: "https://entrepreneurship-platform.vercel.app"
+},
  {
   id: 2,
   title: 'Digital Work & Behavioral Dynamics',
@@ -28,7 +28,7 @@ const beyondCode = [
   description:
     'Explores how digital environments reshape workplace behavior through asynchronous communication, algorithmic visibility, data-driven decisions, and blurred work-life boundaries.',
   image: 'assets/img/beyondCode/image.png',
-  url: 'https://ob-digital-platform-l6qwjzh7v-chheangsamnangs-projects.vercel.app/',
+  url: 'https://ob-digital-platform-hu521odbb-chheangsamnangs-projects.vercel.app/',
 },
   {
     id: 3,
